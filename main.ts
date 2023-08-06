@@ -25,6 +25,3 @@ function computePID (setPoint: number, measuredValue: number) {
     output = Kp * error + Ki * integral + Kd * derivative
     previousError = error
 }
-basic.forever(function () {
-	
-})
